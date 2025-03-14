@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Dating Hub</title>
+    
+    <!-- Adsterra Scripts -->
+    <script type='text/javascript' src='//pl25491511.effectiveratecpm.com/d0/0e/90/d00e90ca2309be2762bbe3951085223b.js'></script>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .lang-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .lang-btn {
+            background: rgba(255, 20, 147, 0.8);
+            border: 2px solid white;
+            color: white;
+            padding: 8px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .lang-btn:hover {
+            background: #ff1493;
+            transform: scale(1.05);
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #fff0f6;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #ff1493, #ff69b4);
+            color: white;
+            padding: 100px 20px 50px;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+
+        .ad-banner {
+            margin: 25px auto;
+            text-align: center;
+            border-radius: 15px;
+            overflow: hidden;
+            max-width: 90%;
+        }
+
+        .profiles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(255,20,147,0.1);
+            transition: transform 0.3s;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-bottom: 5px solid #ff69b4;
+        }
+
+        .profile-info {
+            padding: 25px;
+            text-align: center;
+        }
+
+        .profile-info h3 {
+            color: #ff1493;
+            margin: 15px 0;
+        }
+
+        .signup-form {
+            background: white;
+            padding: 50px 30px;
+            margin: 80px auto;
+            max-width: 600px;
+            border-radius: 30px;
+            box-shadow: 0 0 50px rgba(255,105,180,0.1);
+        }
+
+        input[type="email"] {
+            width: 100%;
+            padding: 18px;
+            margin: 20px 0;
+            border: 3px solid #ff69b4;
+            border-radius: 30px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        button {
+            background: linear-gradient(45deg, #ff1493, #ff69b4);
+            color: white;
+            padding: 18px 50px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: opacity 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+            box-shadow: 0 5px 15px rgba(255,20,147,0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Body Start Popunder -->
+    <script type='text/javascript' src='//pl25491511.effectiveratecpm.com/d0/0e/90/d00e90ca2309be2762bbe3951085223b.js'></script>
+
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+        <button class="lang-btn" onclick="changeLanguage('bn')">বাংলা</button>
+    </div>
+
+    <div class="header">
+        <h1 data-translate="headerTitle"></h1>
+        <p data-translate="headerSub"></p>
+        
+        <!-- 728x90 Banner -->
+        <div class="ad-banner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '21862cd10b3ccfc483337db7892a6f1d',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="//www.effectiveratecpm.com/f4y5pwa3db?key=21862cd10b3ccfc483337db7892a6f1d"></scr' + 'ipt>');
+            </script>
+        </div>
+    </div>
+
+    <!-- Profiles Grid -->
+    <div class="profiles">
+        <div class="profile-card">
+            <img src="https://i.pravatar.cc/400?img=1" class="profile-img" alt="Profile">
+            <div class="profile-info">
+                <h3 data-translate="profile1"></h3>
+                <p data-translate="location"></p>
+                <button data-translate="chatBtn"></button>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <img src="https://i.pravatar.cc/400?img=2" class="profile-img" alt="Profile">
+            <div class="profile-info">
+                <h3 data-translate="profile2"></h3>
+                <p data-translate="interest1"></p>
+                <button data-translate="chatBtn"></button>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <img src="https://i.pravatar.cc/400?img=3" class="profile-img" alt="Profile">
+            <div class="profile-info">
+                <h3 data-translate="profile3"></h3>
+                <p data-translate="interest2"></p>
+                <button data-translate="chatBtn"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Section -->
+    <div class="signup-form">
+        <h2 style="text-align: center;" data-translate="signupTitle"></h2>
+        <form>
+            <input type="email" required>
+            <div style="text-align: center; margin-top: 30px;">
+                <button type="submit" data-translate="submitBtn"></button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer Popunder -->
+    <script type='text/javascript' src='//pl25491511.effectiveratecpm.com/d0/0e/90/d00e90ca2309be2762bbe3951085223b.js'></script>
+
+    <!-- 300x250 Banner -->
+    <div class="ad-banner" style="margin:50px auto;">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '21862cd10b3ccfc483337db7892a6f1d',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+            };
+            document.write('<scr' + 'ipt type="text/javascript" src="//www.effectiveratecpm.com/f4y5pwa3db?key=21862cd10b3ccfc483337db7892a6f1d"></scr' + 'ipt>');
+        </script>
+    </div>
+
+<script>
+// Translation System
+const lang = {
+    en: {
+        headerTitle: "❤️ Find Your Perfect Match Today!",
+        headerSub: "Free Registration | Verified Members",
+        chatBtn: "Start Chatting",
+        signupTitle: "Join Our Dating Community",
+        emailPlaceholder: "Enter your email address",
+        submitBtn: "Find My Partner Now",
+        profile1: "Sophia, 27",
+        location: "📍 Nearby: 2km away",
+        profile2: "Emma, 24",
+        interest1: "✈️ Travel Lover | 💃 Dancer",
+        profile3: "Mia, 29",
+        interest2: "🎨 Art Enthusiast | 📚 Reader"
+    },
+    bn: {
+        headerTitle: "❤️ আজই খুঁজে নিন আপনার আদর্শ সাথী!",
+        headerSub: "বিনামূল্যে রেজিস্ট্রেশন | যাচাইকৃত সদস্য",
+        chatBtn: "চ্যাট শুরু করুন",
+        signupTitle: "আমাদের ডেটিং কমিউনিটিতে যোগ দিন",
+        emailPlaceholder: "আপনার ইমেইল ঠিকানা লিখুন",
+        submitBtn: "সাথী খুঁজুন এখনই",
+        profile1: "সোফিয়া, ২৭",
+        location: "📍 কাছাকাছি: ২ কিমি দূরে",
+        profile2: "এমা, ২৪",
+        interest1: "✈️ ভ্রমণ প্রেমী | 💃 নৃত্যশিল্পী",
+        profile3: "মিয়া, ২৯",
+        interest2: "🎨 শিল্প অনুরাগী | 📚 বইপ্রেমী"
+    }
+};
+
+let currentLang = localStorage.getItem('siteLang') || 'en';
+
+function updateTranslations() {
+    document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.dataset.translate;
+        el.textContent = lang[currentLang][key];
+    });
+    document.title = lang[currentLang].headerTitle;
+    document.querySelector('input[type="email"]').placeholder = lang[currentLang].emailPlaceholder;
+}
+
+function changeLanguage(langCode) {
+    currentLang = langCode;
+    localStorage.setItem('siteLang', langCode);
+    updateTranslations();
+}
+
+// Initial Setup
+document.addEventListener('DOMContentLoaded', () => {
+    updateTranslations();
+    
+    // Set initial active state for language button
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.style.backgroundColor = btn.textContent.toLowerCase() === currentLang ? 
+            '#ff1493' : 'rgba(255, 20, 147, 0.5)';
+    });
+});
+
+// Adsterra Popunder Trigger on Button Click
+document.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+        // Popunder Trigger Code
+        window.open('https://www.effectiveratecpm.com/f4y5pwa3db?key=21862cd10b3ccfc483337db7892a6f1d', 
+            '_blank', 'noreferrer,noopener');
+    });
+});
+</script>
+</body>
+</html>
